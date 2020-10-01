@@ -1,0 +1,26 @@
+.todo {
+  text-align: center;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.MuiPaper-root {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.delete {
+  position: absolute;
+  right: 4px;
+  color: red;
+  cursor: pointer;
+}
+
+@media (max-width: 788px) {
+  .todo {
+    width: 80%;
+  }
+}
